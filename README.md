@@ -1,7 +1,7 @@
 # Name-icon - quickly name your desktop using an icon
 
 ## Font installation
-This tool requires an icon font installed and the namelist of that font. You can use `Iosevka Nerd Font` as the icon font.
+This tool requires an icon font installed and the namelist of that font. You can use _Iosevka Nerd Font_ as the icon font.
 To install the font, copy the file `Iosevka Nerd Font.ttf` to either `./local/share/fonts/` or `/usr/share/fonts/`
 
 ## Usage
@@ -17,4 +17,6 @@ Will name the focused desktop using the firefox icon
 ### Using other fonts or other wm
 If you use other fonts, you may need to generate the namelist of that font, posibly using FontForge's `Encoding/Save Namelist of Font`, as Iosevka's namelist may not match your font's namelist.
 The name-icon of a name can be retrieved using `get-name-icon.sh`:
-  `./get-name-icon.sh <namelist-path> <new-name>`
+
+`./get-name-icon.sh <namelist-path> <new-name>`
+
